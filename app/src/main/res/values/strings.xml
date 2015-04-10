@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PrayerTracker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mainTitle">Prayer Tracker</string>
+    <string name="strSettings">Settings</string>
+</resources>
