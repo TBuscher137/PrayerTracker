@@ -1,5 +1,6 @@
-import java.text.DateFormat;
-import java.util.Date;
+
+import java.time.Year;
+import java.util.*;
 
 /**
  *
@@ -11,7 +12,7 @@ public class prayer {
     public String Title() {
         return "title" + " ";
     }
-    
+
     public String Description(){
             return "description" + " ";
 
@@ -36,13 +37,20 @@ public class prayer {
 
     }
 
-    Date date = new Date(location.getTime());
-    DateFormat dateFormat = android.text.format.DateFormat.getDateFormat(getApplicationContext());
-    mTimeText.setText("Time: " +dateFormate.format(date));
+
 
 
     public static void main(String[] args) {
-        // TODO code application logic here
+       GregorianCalendar date = new GregorianCalendar();
+
+        int year0 = date.get(GregorianCalendar.YEAR);
+        int month0 = date.get(GregorianCalendar.MONTH);
+        int day0 = date.get(GregorianCalendar.DAY_OF_MONTH);
+
+        date.setTimeInMillis(1234567898765L);
+
+        int year1
+
     }
     
 }
