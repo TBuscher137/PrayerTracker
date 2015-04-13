@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.tc3p0.prayertracker.PrayerActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#26B99A"
+            android:id="@+id/relativeLayout"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prayerTitle"
+                android:id="@+id/PrayerActivityTitle"
+                android:layout_alignParentStart="false"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="false"
+                android:layout_centerInParent="true"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/backArrow" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
