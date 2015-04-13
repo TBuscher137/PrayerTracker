@@ -20,6 +20,22 @@
             android:name=".PrayerActivity"
             android:label="@string/title_activity_prayer" >
         </activity>
+        <activity
+            android:name=".PrayerListActivity"
+            android:label="@string/title_prayer_list"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tc3p0.prayertracker.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PrayerDetailActivity"
+            android:label="@string/title_prayer_detail"
+            android:parentActivityName=".PrayerListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.tc3p0.prayertracker.PrayerListActivity" />
+        </activity>
     </application>
 
 </manifest>
