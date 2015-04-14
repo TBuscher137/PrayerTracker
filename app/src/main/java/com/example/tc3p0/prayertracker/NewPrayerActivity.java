@@ -4,42 +4,21 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
 
 
-public class PrayerActivity extends ActionBarActivity {
-    private ImageView bkButton = (ImageView)findViewById(R.id.BackArrow);
-    private RelativeLayout answered = (RelativeLayout)findViewById(R.id.AnsweredButton);
+public class NewPrayerActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_prayer);
-
-        bkButton.setOnClickListener(new ImageView.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                // Open MainActivity
-            }
-        });
-
-        answered.setOnClickListener(new RelativeLayout.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                // Set prayer to Answered
-            }
-        });
+        setContentView(R.layout.activity_new_prayer);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_prayer, menu);
+        getMenuInflater().inflate(R.menu.menu_new_prayer, menu);
         return true;
     }
 

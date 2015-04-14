@@ -5,9 +5,17 @@
     <string name="action_settings">Settings</string>
     <string name="mainTitle">Prayer Tracker</string>
     <string name="prayerTitle">Prayer Details</string>
+    <string name="newTitle">Add New Prayer</string>
     <string name="strSettings">Settings</string>
     <string name="strAnswered">Answered</string>
     <string name="strDateAdded">Date Added:\ </string>
     <string name="strEndDate">End Date:\  </string>
+    <string name="strTitle">Prayer Title:</string>
+    <string name="strDaysOfWk">Reminders:</string>
+    <string name="strEndOn">End On:</string>
+    <string name="strCreate">Create</string>
+    <string name="strCancel">Cancel</string>
+    <string name="strDescription">Description:</string>
     <string name="title_activity_prayer">PrayerActivity</string>
+    <string name="title_activity_new_prayer">NewPrayerActivity</string>
 </resources>

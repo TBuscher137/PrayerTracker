@@ -20,6 +20,10 @@
             android:name=".PrayerActivity"
             android:label="@string/title_activity_prayer" >
         </activity>
+        <activity
+            android:name=".NewPrayerActivity"
+            android:label="@string/title_activity_new_prayer" >
+        </activity>
     </application>
 
 </manifest>
