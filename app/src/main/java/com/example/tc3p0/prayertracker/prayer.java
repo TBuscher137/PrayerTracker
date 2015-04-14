@@ -1,12 +1,12 @@
 
-import java.time.Year;
 import java.util.*;
 
 /**
  *
  * @author Brandon Boughton
  */
-public class prayer {
+
+public class prayer{
 
     
     public String Title() {
@@ -49,7 +49,7 @@ public class prayer {
 
         date.setTimeInMillis(1234567898765L);
 
-        int year1
+        int year1;
 
     }
     
