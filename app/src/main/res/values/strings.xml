@@ -6,5 +6,8 @@
     <string name="mainTitle">Prayer Tracker</string>
     <string name="prayerTitle">Prayer Details</string>
     <string name="strSettings">Settings</string>
+    <string name="strAnswered">Answered</string>
+    <string name="strDateAdded">Date Added:\ </string>
+    <string name="strEndDate">End Date:\  </string>
     <string name="title_activity_prayer">PrayerActivity</string>
 </resources>
