@@ -63,13 +63,14 @@
             android:layout_width="fill_parent"
             android:layout_height="1dp"
             android:id="@+id/DividerLine"
-            android:background="#000000" />
+            android:background="#000000"
+            android:contentDescription="thin line"
+            tools:ignore="HardcodedText" />
 
-        <LinearLayout
-            android:orientation="vertical"
+        <ListView
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:id="@+id/PrayerList"></LinearLayout>
+            android:layout_height="wrap_content"
+            android:id="@+id/listView" />
 
     </LinearLayout>
 
@@ -81,6 +82,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:background="#26B99A"
-        android:src="@android:drawable/ic_menu_add" />
+        android:src="@android:drawable/ic_menu_add"
+        android:contentDescription="add prayer"
+        tools:ignore="HardcodedText"/>
 
 </RelativeLayout>
