@@ -11,9 +11,9 @@ public class prayer {
     public static void main(String[] args) {
 
         boolean answeredPrayer = true;
-        if(answeredPrayer == true){
+        if (answeredPrayer == true) {
             System.out.print(true);
-        }else{
+        } else {
             System.out.print(false);
         }
 
@@ -48,7 +48,10 @@ public class prayer {
 
 
         }
+    }
+}
 
+/*
     public String getTitle() {
         return title;
     }
@@ -97,4 +100,5 @@ public class prayer {
         email = personEmail;
     }
 }
-}
+
+*/
