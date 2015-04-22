@@ -1,4 +1,4 @@
-
+package com.example.tc3p0.prayertracker;
 import java.util.*;
 import java.util.jar.Attributes;
 
@@ -6,20 +6,20 @@ import java.util.jar.Attributes;
  * @author Brandon Boughton
  */
 
-public class prayer1 {
-    public static void main(String[] args) {
-
+public class Prayer1 {
         public String Title(){
 
             String name = "title";
-            int len = title.length();
+            int len = name.length();
             char[] tmpCharArray = new char[len];
             char[] charArray = new char[len];
 
-            for (int i = 0; i < len; i++) ;
-            tmpCharArray[i] = name.charAt(i);
+            for (int i = 0; i < len; i++){
+                tmpCharArray[i] = name.charAt(i);
+            }
 
-            return "title";
+
+            return name;
         }
 
 
@@ -30,13 +30,12 @@ public class prayer1 {
         char[] tmpCharArray = new char[len];
         char[] charArray = new char[len];
 
-        for (int i = 0; i < len; i++) ;
-        tmpCharArray[i] = name.charAt(i);
+        for (int i = 0; i < len; i++) {
+            tmpCharArray[i] = name.charAt(i);
+        }
 
 
         return "description";
-
-
     }
 
     public String Photo() {
@@ -45,8 +44,10 @@ public class prayer1 {
         char[] tmpCharArray = new char[len];
         char[] charArray = new char[len];
 
-        for (int i = 0; i < len; i++) ;
-        tmpCharArray[i] = name.charAt(i);
+        for (int i = 0; i < len; i++){
+            tmpCharArray[i] = name.charAt(i);
+        }
+
 
         return String.format("Photo ");
     }
@@ -58,8 +59,10 @@ public class prayer1 {
         char[] tmpCharArray = new char[len];
         char[] charArray = new char[len];
 
-        for (int i = 0; i < len; i++) ;
-        tmpCharArray[i] = name.charAt(i);
+        for (int i = 0; i < len; i++){
+            tmpCharArray[i] = name.charAt(i);
+        }
+
 
 
         return "Name" + " ";
@@ -71,8 +74,10 @@ public class prayer1 {
         char[] tmpCharArray = new char[len];
         char[] charArray = new char[len];
 
-        for (int i = 0; i < len; i++) ;
-        tmpCharArray[i] = name.charAt(i);
+        for (int i = 0; i < len; i++){
+            tmpCharArray[i] = name.charAt(i);
+        }
+
 
 
         return "Phone Number" + " ";
@@ -84,16 +89,17 @@ public class prayer1 {
         char[] tmpCharArray = new char[len];
         char[] charArray = new char[len];
 
-        for (int i = 0; i < len; i++) ;
-        tmpCharArray[i] = name.charAt(i);
+        for (int i = 0; i < len; i++){
+            tmpCharArray[i] = name.charAt(i);
+        }
+
 
 
         return "email" + " ";
 
     }
 
-    public GregorianCalendar
-
+    public GregorianCalendar dateGreg()
     {
         GregorianCalendar date = new GregorianCalendar();
         int year = date.get(GregorianCalendar.YEAR);
@@ -102,22 +108,13 @@ public class prayer1 {
 
         date.setTimeInMillis(1234567898765L);
 
-
+        return date;
     }
 
-    public String Title
 
-    {
-        return Title;
-    }
-
-    public String getName
+    public String getName()
 
     {
         return Name();
-
     }
-
-
-}
 }
